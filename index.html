@@ -1,79 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
- <head>
-  <meta charset="utf-8">
-  <title>Enlèvement au Jumping Internationnal de Chantilly</title>
-  <link href='css/style.css' rel='stylesheet'>
-  <link href='css/Elements/top_nav.css' rel='stylesheet'>
-  <link href='css/Elements/image.css' rel='stylesheet'>
-  <link href="https://fonts.googleapis.com/css2?family=Michroma" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald" rel="stylesheet">
-  <link rel="icon" type="image/png" href="Images/favicon/favicon-32x32.png" sizes="32x32">
- </head>
-
- <body>
-  <div class="topnav">
-    <a href="Pages/Chateau_de_Chantilly.html">Enlèvement au Jumping Internationnal de Chantilly</a>
-  </div>
-
-  <div class="flex-parent-element">
-    <div class="flex-button">
-      <a href="Pages/Indices/Indice.html"><img src="Images/Button/Ampoule_indice_no_bg.png" class="image hint_image transform"></a>
-    </div>
-
-    <div class="content">
-      <div>
-        <p class="title">Accueil</p>
-        <div class="text">
-          <p>
-            <h1>PRÉSENTATION</h1><br>
-            Nous somme la veille de la compétition d'un concours international et la monture de Simon Delestre a été enlevée.
-            En panique, celui-ci contact la meilleure détective qu'il connaisse pour retrouver sa monture avant que ne soit donné
-            le départ du CSO, le lendemain. <br>
-            Ayant a coeur de soutenir votre cavalier favori, vous ne perdez pas une seconde et sautez dans Paulette :
-            direction les grandes écuries du Château de Chantilly.
-            <br><br>Cliquez sur le bouton ci-dessous pour vous rendre au château de Chantilly et commencer votre enquête.
-            <br><br>
-          </p>
-          <a href="Pages/Chateau_de_Chantilly.html">
-            <img src="Images/Button/Button_escape_game_start_no_bg.png" class="image transform start_image">
-          </a>
-          
-          <p><br>
-            <h1>JOUABILITÉ</h1><br>
-            Au cours de cette enquête tu seras amenée à te déplacer dans différents lieux.
-            Le nom des lieux est écrit dans une couleur différente pour mieux les visualiser.
-            Pour te rendre à un nouveau lieu, entre le <span class="place_text">Lieu</span> exact dans la barre de recherche situé en bas de page.
-            Si le lieu existe tu seras redirigée vers le nouveau lieu.<br>
-            Pour simplifier la navigation, n'hésites pas à noter les lieux découverts sur un bloc-notes.<br><br>
-            Le jeu n'est pas nécessairement fait pour être fini d'une traite. Tu peux donc enregistrer cette page
-            pour y revenir plus tard. Aussi, tu peux cliquer sur le bandeau 
-            "Enlèvement au Jumping Internationnal de Chantilly" présent en haut de chaque page.
-            Celui-ci te ramèneras à la première salle du jeu. 
-            Cela peut faciliter ta navigation entre les différentes pages du site.
-            <br><br>
-            Il se peut que la solution à certaines énigmes ne te saute pas au yeux.
-            Si tu es bloquée, clique sur le bouton "INDICES" en haut à gauche de ton écran.
-            Tu seras rediriger vers la page des solutions.
-            Entre le numéro de l'énigme sur laquelle tu bloques et des indices te seront donnés.<br><br>
-            Certaines énigmes peuvent nécessité d'utiliser des outils de traduction ou de cartographie 
-            tel que Google Translate ou Google Maps. Si tu penses en avoir besoin n'hésite pas à t'en servir.
-            <br><br><br>
-            
-            <h1>AVERTISSEMENT</h1><br>
-            Il est recommandé d'utilisé le navigateur Chrome pour l'ensemble de l'activité.
-            En effet, certaines fonctionnalités pourraient ne pas fonctionner correctement dans d'autre navigateur
-            ce qui nuirait à l'expérience de jeu.<br>
-            Ce jeu a été pensé pour toi et est reservé exclusivement à un usage personnel.
-            Merci d'y jouer seule et de ne pas partager le lien sans le consentement du créateur de ce jeu. <br><br>
-            </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendrier de l'Avent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calendrier de l'Avent</h1>
+    <p> et du risque...</p>
+    <button id="info-button" class="info-button">?</button>
+    <div id="info-modal" class="info-modal">
+        <div class="info-modal-content">
+            <span class="info-close">&times;</span>
+            <h3>Gains (X cases)</h3>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <h3>Pertes (24-X cases)</h3>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
+            <p>10% - Privée de caféine pendant 24h</p>
         </div>
-
-        <img src="Images/Running_horse_gif.webp" frameBorder="0" class="gif"></img>
-      </div>
     </div>
-  </div>
-
-
- </body>
+    <br><br><br>
+    <div class="sapin-container">
+        <img src="tree.jpg" alt="Sapin de Noël" id="sapin">
+        <div class="calendar"></div>
+    </div>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
