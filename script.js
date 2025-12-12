@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const texts = [
-        "Coktail Enhypen", // 1
-        "J'écoute une musique", // 2
-        "On regarde un film de ton choix", // 3
+        "J'essaie le coktail d'Enhypen", // 1
+        "J'écoute une musique de ton choix", // 2
+        "Je/On regarde un film de ton choix", // 3
         "Je fais le gage de ton choix", // 4
         "Tu as quartier libre pour demander ce que tu veux pendant 24h", // 5
         "J'écoute entre 1 et 5 musique, selon ton envie", // 6
