@@ -32,19 +32,24 @@ document.addEventListener('DOMContentLoaded', function() {
     ];
 
     const texts = [
-        "This is the first text for group 1.",
-        "This is the second text for group 2.",
-        "This is the third text for group 3.",
-        "This is the fourth text for group 4.",
-        "This is the fifth text for group 5.",
+        "Coktail Enhypen", // 1
+        "J'écoute une musique", // 2
+        "On regarde un film de ton choix", // 3
+        "Je fais le gage de ton choix", // 4
+        "Tu as quartier libre pour demander ce que tu veux pendant 24h", // 5
+        "J'écoute entre 1 et 5 musique, selon ton envie", // 6
+
+        "Je peux te poser entre 1 et 3 questions", // 7
+        "Privée de caféine et de coca pendant 24h", // 8
+        "Tu m'envoies une photo de mon choix", // 9
     ];
 
     const textGroups = [
-        1, 2, 3, 4, 5,
-        1, 2, 3, 4, 5,
-        1, 2, 3, 4, 5,
-        1, 2, 3, 4, 5,
-        1, 2, 3, 4
+        0, 0, 0, 0, 0,  // 1 - 5
+        0, 0, 0, 0, 0,  // 6 - 10
+        0, 3, 2, 2, 8,  // 11 - 15
+        1, 0, 6, 4, 9,  // 16 - 20
+        5, 7, 6, 4      // 21 - 24
     ];
 
     for (let i = 0; i < 24; i++) {
